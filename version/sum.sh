@@ -1,5 +1,5 @@
 #THREE NUMBERS SUM
-#version 1.1
+#version 1.2 latest
 #!/bin/bash
 echo "Enter the 1st number:" read a
 echo "Enter the 2nd number:" read b
