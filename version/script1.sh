@@ -1,4 +1,5 @@
-SEARCH PATTERN
+#SEARCH PATTERN
+#version 1.1
 
 #!/bin/bash
 echo "Enter the pattern to search"

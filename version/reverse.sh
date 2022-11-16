@@ -1,4 +1,5 @@
-REVERSE A STRING
+#REVERSE A STRING
+#version 1.1
 #!/bin/bash
 string="sharath"
 rev=""
