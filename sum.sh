@@ -1,6 +1,6 @@
 THREE NUMBERS SUM
 #!/bin/bash
-echo "Enter the 1st number:" read a
+echo "Enter the 1st number:" read abc
 echo "Enter the 2nd number:" read b
 sum=$(echo "$a + $b" | bc )
 
