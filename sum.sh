@@ -1,10 +1,10 @@
-THREE NUMBERS SUM
+#THREE NUMBERS SUM
 #!/bin/bash
-echo "Enter the 1st number:" read a
+echo "Enter the 1st number:" read 1
 echo "Enter the 2nd number:" read b
 sum=$(echo "$a + $b" | bc )
 
-difference=$(echo "$a - $b" | bc )
+Difference=$(echo "$a - $b" | bc )
 product=$(echo "$a * $b" | bc )
 divi=$(echo "$a / $b" | bc )
 echo "The sum of 2 numbers $a and $b is $sum"
