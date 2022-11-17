@@ -1,7 +1,7 @@
 #Factorial
 #!/bin/bash
 
-array="10 20 30 40 5"
+array="10 15 20 30 40 5"
 for i in $array
 do
         temp=$i
