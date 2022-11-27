@@ -1,5 +1,5 @@
 #!/bin/bash
-su - slave
+sudo su - slave
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install default-jdk -y
