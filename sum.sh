@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt update -y
-sudo apt upgrade -y
+apt update -y
+apt upgrade -y
 sudo apt install default-jdk -y
 sudo java -version
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
