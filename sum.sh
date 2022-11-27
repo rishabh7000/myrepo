@@ -7,8 +7,8 @@ java -version
 wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
 tar -xvzf apache-tomcat-10.0.27.tar.gz
 rm -rf apache-tomcat-10.0.27.tar.gz
-mv apache-tomcat-10.0.27 /opt/tomcat
-sh /opt/tomcat/bin/shutdown.sh
+mv apache-tomcat-10.0.27 /slave/tomcat
+sh /slave/tomcat/bin/shutdown.sh
 sleep 2
 sh /opt/tomcat/bin/startup.sh
 rm -rf conf-and-webapps-file
