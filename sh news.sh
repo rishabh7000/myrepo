@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo su -
+su - slave
+cd /home/slave
 apt update
 ap install default-jdk
 java --version
