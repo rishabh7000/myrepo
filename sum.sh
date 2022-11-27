@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt update -y
+sudo sh -c '123'
 sudo apt upgrade -y
 sudo apt install default-jdk -y
 java -version
